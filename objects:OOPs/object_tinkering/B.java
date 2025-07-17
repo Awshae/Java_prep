@@ -1,5 +1,5 @@
 public class B
-{
+{   //basic program to intertwine methods from two different classes. Note: keep in same folder structure
     static int a;
     public static void hi()
     {

@@ -1,4 +1,5 @@
 public class C{
+    //basic program to understand block working
     static int a=hai();
     static int b =20;
     public static int hai()

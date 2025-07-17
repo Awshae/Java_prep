@@ -17,7 +17,7 @@ public static void main(String[] args) {
         oops object = new oops(); //creating object with new variable, gets created in the Heap Area. Returns address of current object.
         System.out.println(object); 
         oops object_non_static_method = new oops();
-       object_non_static_method.shakespeare();
+       object_non_static_method.shakespeare(); //static method
 
     }
 }
