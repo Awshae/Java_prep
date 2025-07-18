@@ -26,6 +26,12 @@ This repository documents my learning journey of Java programming.
   - `do-while` loop  
   - Pattern printing using loops
 
+- **Methods (Functions)**  
+  - Defining and calling methods  
+  - Methods without parameters  
+  - Methods with parameters  
+  - Methods with return values  
+  - Reusability of code using methods  
+  - Demonstrated use of methods in pattern printing, arithmetic operations, and logic implementation
+
 ---
-
-
