@@ -1,37 +1,70 @@
-## Java Training Repository
+#  Java Training Repository
 
-This repository documents my learning journey of Java programming.
+This repository documents my learning journey through core Java programming concepts from basic syntaxes to object oriented programming.
 
-### Topics Covered
+---
 
-- **Java Basics**  
-  - Syntax, data types, tokens, keywords, identifiers, literals, and separators.
+## Overview
 
-- **Operators**  
-  - Arithmetic  
-  - Relational  
-  - Logical  
-  - Increment/Decrement  
-  - Conditional (Ternary)
+The repository is organized into the following concepts:
 
-- **Control Structures**  
-  - `if`  
-  - `if-else`  
-  - `if-else-if` ladder  
-  - `switch` statement
+- Java Basics
+- Control Structures (Conditionals and Loops)
+- Methods and Type Casting
+- Arrays and String Manipulation
+- Exception Handling
+- Object-Oriented Programming (OOP)
 
-- **Loops**  
-  - `for` loop  
-  - `while` loop  
-  - `do-while` loop  
-  - Pattern printing using loops
+---
+## Topics Covered
+### Java Basics
+- Syntax and structure
+- Data types, tokens, keywords, identifiers, literals, separators
+- Operators: Arithmetic, relational, logical, increment/decrement, conditional (ternary)
 
-- **Methods (Functions)**  
-  - Defining and calling methods  
-  - Methods without parameters  
-  - Methods with parameters  
-  - Methods with return values  
-  - Reusability of code using methods  
-  - Demonstrated use of methods in pattern printing, arithmetic operations, and logic implementation
+### Control Structures
+- Conditional statements: `if`, `if-else`, `if-else-if`, `switch`
+- Loops: `for`, `while`, `do-while`
+- Pattern printing using nested loops
 
+### Methods
+- Defining and invoking methods
+- Methods with and without parameters
+- Methods with return values
+- Use in logic, arithmetic operations, and pattern generation
+
+### Type Casting
+- Widening (implicit casting)
+- Narrowing (explicit casting)
+
+### Strings and Exceptions
+- String manipulation and operations
+- Introduction to exception handling
+
+### Arrays
+- Array operations and element processing
+- Searching techniques
+
+### Object-Oriented Programming (OOPs)
+- Object creation and manipulation
+- Core OOP concepts:
+  - Abstraction
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+
+---
+## Folder Structure 
+```
+-Arrays:Searching:Operations
+-Basics:Operators
+-Loops:Patterns
+-Methods:Type_casting
+-Objects:OOPs
+ ├─ object_tinkering
+ └─ OOPS_concepts
+-Strings:Exceptions
+```
+## Timeline
+- 14th July 2025 onwards
 ---

@@ -1,0 +1,52 @@
+public class Strings{
+    public static void main(String[] args) {
+        System.out.println("----BASIC OPS---");
+        String s = "asher";
+        System.out.println(s.toUpperCase());
+        System.out.println(s.toLowerCase());
+        String t = "jarvis";
+        String u = s.concat(" "+t);
+        String v = u.concat(" Pinto");
+        System.out.println(t.toUpperCase());
+        System.out.println(t.toLowerCase());
+        System.out.println(v.toUpperCase());
+        System.out.println("");
+        System.out.println("----MEMORY MANAGEMENT---");
+        String s1 = "Hai";
+        String s2 = "Hello";
+        String s3 = "Hai";
+        System.out.println(s1==s2);
+        System.out.println(s2==s3);
+        System.out.println(s3==s1);
+        System.out.println("");
+        System.out.println("----USING == OPERATOR---");
+        String a1 = "test";
+        String a2 = "Train";
+        String a3 = new String("test");
+        System.out.println(a1==a2);
+        System.out.println(a2==a3);
+        System.out.println(a3==a1);
+        System.out.println("");
+        System.out.println("----USING EQUALS---");
+        String b1 = "test";
+        String b2 = "Train";
+        String b3 = new String("test");
+        System.out.println(b1.equals(b2));
+        System.out.println(b2.equals(b3));
+        System.out.println(b3.equals(b1));
+        System.out.println("");
+        System.out.println("----ADV OPS---");
+        System.out.println(v);
+        System.out.println(v.trim());
+        System.out.println(v.length());
+        System.out.println(v.isEmpty());
+        System.out.println(v.endsWith("Awshae")); 
+        System.out.println(v.endsWith("Pinto"));
+        System.out.println(""); 
+        System.out.println("----STRING MANIPULATION---");
+        StringBuffer n =new StringBuffer("NMAMIT");
+        System.out.println(n);
+        n.replace(1, 4, "AIT");
+        System.out.println(n);
+    }
+}
